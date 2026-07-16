@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Amaan Haroon Rasheed</title>
-    <meta name="description" content>
+    <title>Amaan Haroon Rasheed | Full-Stack Web & Oracle APEX Developer</title>
+    <meta name="description" content="Full-Stack Web Developer and Oracle APEX Developer with 3+ years of experience designing, developing, and deploying responsive, scalable, and database-driven web applications. Skilled in Oracle APEX, SQL, PL/SQL, WordPress, Shopify, React, Node.js, DevOps, and workflow automation.">
     <meta name="keywords" content>
 
     <!-- Favicons -->
@@ -63,9 +63,10 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <!-- <div class="header-social-links">
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div> -->
+            <div class="header-social-links">
+                <a href="https://www.linkedin.com/in/amaanrasheedpatel" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/amaanar256" target="_blank" class="github"><i class="bi bi-github"></i></a>
+            </div>
 
         </div>
     </header>
@@ -74,14 +75,13 @@
     <main class="main">
         <!-- Hero Section -->
         <section id="hero" class="hero section">
+            <canvas id="earth-particles"></canvas>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center content">
                     <div class="col-lg-6 col-md-12 text-center text-lg-start" data-aos="fade-up" data-aos-delay="200">
-                        <h2>Crafting Digital Experiences with Passion</h2>
+                        <h2>Full-Stack Web & Oracle APEX Developer</h2>
                         <p class="lead">
-                            Transforming ideas into elegant solutions
-                            through creative design and innovative
-                            development
+                            Building responsive, scalable, and database-driven web applications with modern technologies
                         </p>
                         <!-- <div class="cta-buttons d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start"
                             data-aos="fade-up" data-aos-delay="300">
@@ -93,7 +93,7 @@
                         <div class="hero-stats d-flex flex-wrap justify-content-center justify-content-lg-start"
                             data-aos="fade-up" data-aos-delay="400">
                             <div class="stat-item me-3 text-center">
-                                <span class="stat-number d-block">2.5+</span>
+                                <span class="stat-number d-block">3+</span>
                                 <span class="stat-label">Years
                                     Experience</span>
                             </div>
@@ -147,51 +147,11 @@
                         <div class="about-content text-center text-lg-start">
                             <span class="subtitle d-block mb-2">About
                                 Me</span>
-                            <h2 class="mb-3">Web Developer | DevOps & Automation Enthusiast</h2>
+                            <h2 class="mb-3">Full-Stack Web Developer | Oracle APEX Developer</h2>
 
-                            <p class="lead">Versatile and results-driven Web Developer with over 3 years of hands-on
-                                experience in building and managing
-                                WordPress, Shopify, and custom web solutions. Highly skilled in frontend and backend
-                                technologies, including HTML5,
-                                CSS3, JavaScript, PHP, and .NET Core Web API at a mid-level. Adept in deploying
-                                solutions using GIT, Docker, and SQL
-                                Server. Passionate about automation and optimization, with a focus on modern development
-                                practices. Proficient in
-                                DevOps and automation workflows with n8n at a basic level, bringing efficiencies to
-                                development processes. Actively
-                                pursuing a Bachelor's in Computer Science from a Virtual University, enhancing both
-                                technical and soft skills for a
-                                comprehensive approach to solving complex problems.</p>
+                            <p class="lead">Full-Stack Web Developer and Oracle APEX Developer with 3+ years of hands-on experience designing, developing, and deploying responsive, scalable, and database-driven web applications. Possesses over 1 year of practical experience in Oracle APEX, SQL, and PL/SQL, developing business applications with interactive reports, dashboards, forms, CRUD operations, validations, dynamic actions, authentication, authorization, and role-based access control. Strong expertise in WordPress and Shopify development, including custom website development, theme customization, payment gateway integration, inventory management, performance optimization, and responsive design. Also experienced in Core PHP, Node.js, React, MySQL, Oracle Database, system analysis, requirements gathering, and process mapping. Skilled in DevOps workflows using Docker, Git, GitHub, CI/CD pipelines, Jenkins, and AWS deployment, with hands-on expertise in workflow automation using n8n. Currently pursuing a Bachelor of Computer Science to further strengthen technical and analytical expertise.</p>
 
-                            <div class="personal-info">
-                                <div class="row gy-3">
-                                    <div class="col-md-12 col-lg-6">
-                                        <div class="info-item">
-                                            <span class="label fw-bold">Name:</span>
-                                            <span class="value d-block">Amaan Haroon Rasheed</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-6">
-                                        <div class="info-item">
-                                            <span class="label fw-bold">Phone:</span>
-                                            <span class="value d-block">+92
-                                                317 1274 734</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-6">
-                                        <div class="info-item">
-                                            <span class="label fw-bold">Email:</span>
-                                            <span class="value d-block">pk.amaanrasheed.patel@gmail.com</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-6">
-                                        <div class="info-item">
-                                            <span class="label fw-bold">Nationality:</span>
-                                            <span class="value d-block">Pakistani</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End Personal Info -->
+
 
                         </div>
                     </div><!-- End Content Column -->
@@ -211,55 +171,61 @@
                 <div class="row">
                     <!-- Skills Details -->
                     <div class="col-lg-12 mx-auto">
-                        <div class="row g-4">
+                        <div class="row g-4" id="skills-grid">
+                            <!-- 1. AI-Assisted Development -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Frontend</h3>
-                                    <p> HTML5, CSS3, JavaScript, Bootstrap, SCSS.</p>
+                                <div class="skill-box" data-skill="AI-Assisted Development" style="opacity: 0;">
+                                    <h3>AI-Assisted Development</h3>
+                                    <p>Cursor, Trae, Antigravity, Windsurf, Kilo Code</p>
                                 </div>
                             </div>
+                            <!-- 2. Automation & Tools -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>CMS Platforms</h3>
-                                    <p> WordPress (Elementor, WP Bakery), Shopify (Custom & Themes), Kadences.</p>
+                                <div class="skill-box" data-skill="Automation & Tools" style="opacity: 0;">
+                                    <h3>Automation & Tools</h3>
+                                    <p>n8n Workflow Automation, Postman, VS Code, API Testing</p>
                                 </div>
                             </div>
+                            <!-- 3. Backend Development -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Backend</h3>
-                                    <p> PHP Core, .NET Core Web API (Mid-Level), Laravel (Basic), MySQL.</p>
+                                <div class="skill-box" data-skill="Backend Development" style="opacity: 0;">
+                                    <h3>Backend Development</h3>
+                                    <p>Core PHP, Node.js, REST API Integration</p>
                                 </div>
                             </div>
+                            <!-- 4. CMS & E-Commerce -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>DevOps</h3>
-                                    <p> Docker (Basic), Git (Version Control), CI/CD Practices .</p>
+                                <div class="skill-box" data-skill="CMS & E-Commerce" style="opacity: 0;">
+                                    <h3>CMS & E-Commerce</h3>
+                                    <p>WordPress (Elementor, WPBakery, Kadence), Shopify, WooCommerce</p>
                                 </div>
                             </div>
+                            <!-- 5. DevOps & Deployment -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Collaboration & Communication</h3>
-                                    <p>Strong interpersonal skills to work
-                                        effectively in cross-functional
-                                        teams.</p>
+                                <div class="skill-box" data-skill="DevOps & Deployment" style="opacity: 0;">
+                                    <h3>DevOps & Deployment</h3>
+                                    <p>Docker, Git, GitHub, CI/CD Pipelines, Jenkins, AWS Deployment</p>
                                 </div>
                             </div>
+                            <!-- 6. Frontend Development -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Automation</h3>
-                                    <p>n8n (Basic), Postman, VS Code .</p>
+                                <div class="skill-box" data-skill="Frontend Development" style="opacity: 0;">
+                                    <h3>Frontend Development</h3>
+                                    <p>HTML5, CSS3, JavaScript, React, Bootstrap, SCSS, Responsive Web Design</p>
                                 </div>
                             </div>
+                            <!-- 7. Oracle APEX -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Functional Skills</h3>
-                                    <p> Store Management, Payment Integration, Inventory Systems .</p>
+                                <div class="skill-box" data-skill="Oracle APEX" style="opacity: 0;">
+                                    <h3>Oracle APEX</h3>
+                                    <p>Application Development, Interactive Reports, Grids, Forms, Dashboards, Dynamic Actions, CRUD</p>
                                 </div>
                             </div>
+                            <!-- 8. Oracle Database -->
                             <div class="col-md-6">
-                                <div class="skill-box">
-                                    <h3>Tools</h3>
-                                    <p>Postman, Docker, VS Code.</p>
+                                <div class="skill-box" data-skill="Oracle Database" style="opacity: 0;">
+                                    <h3>Oracle Database</h3>
+                                    <p>SQL, PL/SQL, Tables, Views, Triggers, Stored Procedures, Functions, Packages</p>
                                 </div>
                             </div>
                         </div>
@@ -293,30 +259,43 @@
                             <div class="resume-block" data-aos="fade-up">
                                 <h2>Work Experience</h2>
                                 <div class="timeline">
-                                    <!-- Current Job GA -->
+                                    <!-- Job 1 - Current -->
                                     <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                                         <div class="timeline-left">
-                                            <h4 class="company">Nova Leathers</h4>
-                                            <span class="period">July 2023 – Present</span>
+                                            <h4 class="company">Nova Leathers, Karachi</h4>
+                                            <span class="period">August 2025 – Present</span>
+                                        </div>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-right">
+                                            <h3 class="position">Full-Stack Web & Oracle APEX Developer</h3>
+                                            <h4>Key Responsibilities</h4>
+                                            <ul>
+                                                <li>Design and develop responsive, database-driven business applications using Oracle APEX, Oracle Database, SQL, and PL/SQL</li>
+                                                <li>Build interactive dashboards, data-entry forms, reports, charts, and CRUD-based application modules</li>
+                                                <li>Develop employee management, attendance, inventory, document management, task management, and reporting modules</li>
+                                                <li>Implement validations, dynamic actions, page processes, automated workflows, and reusable shared components</li>
+                                                <li>Configure authentication, authorization schemes, user roles, access permissions, and role-based security</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- Job 2 -->
+                                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="timeline-left">
+                                            <h4 class="company">Nova Leathers, Karachi</h4>
+                                            <span class="period">July 2023 – July 2025</span>
                                         </div>
                                         <div class="timeline-dot"></div>
                                         <div class="timeline-right">
                                             <h3 class="position">WordPress & Shopify Developer</h3>
-                                            <p class="description">Designed and maintained e-commerce and promotional
-                                                websites on WordPress and Shopify. </p>
                                             <h4>Key Responsibilities</h4>
                                             <ul>
-                                                <li> Integrated payment gateways and optimized user flows for better
-                                                    conversions.</li>
-                                                <li> Built a Core PHP inventory system, improving inventory tracking
-                                                    accuracy.</li>
-
-
+                                                <li>Designed, developed, and maintained e-commerce and promotional websites using WordPress and Shopify</li>
+                                                <li>Implemented secure payment gateway integrations and optimized user journeys</li>
+                                                <li>Built a custom inventory management system using Core PHP</li>
                                             </ul>
-
-
                                         </div>
                                     </div>
+                                    <!-- Job 3 -->
                                     <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                                         <div class="timeline-left">
                                             <h4 class="company">Zyne Venture</h4>
@@ -324,21 +303,15 @@
                                         </div>
                                         <div class="timeline-dot"></div>
                                         <div class="timeline-right">
-                                            <h3 class="position">WordPress Developer (Contract) </h3>
-                                            <!-- <p class="description">Designed and developed a professional website using
-                                                the Kadence theme for a client-focused platform.</p> -->
+                                            <h3 class="position">WordPress Developer (Contract)</h3>
                                             <h4>Key Responsibilities</h4>
                                             <ul>
-                                                <li>Designed and developed a professional website using the Kadence
-                                                    theme for a client-focused platform.</li>
-                                                <li>Optimized website structure for SEO and fast loading times.</li>
-
-
+                                                <li>Designed and developed a professional website using the Kadence theme</li>
+                                                <li>Optimized website structure for SEO and fast loading times</li>
                                             </ul>
-
-
                                         </div>
                                     </div>
+                                    <!-- Job 4 -->
                                     <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                                         <div class="timeline-left">
                                             <h4 class="company">1Click, Karachi</h4>
@@ -347,39 +320,28 @@
                                         <div class="timeline-dot"></div>
                                         <div class="timeline-right">
                                             <h3 class="position">Junior WordPress Developer</h3>
-                                            <!-- <p class="description">Designed and developed a professional website using
-                                                the Kadence theme for a client-focused platform.</p> -->
                                             <h4>Key Responsibilities</h4>
                                             <ul>
-                                                <li>Improved website responsiveness and mobile compatibility. </li>
-                                                <li> Developed and customized themes using Elementor and WP Bakery.</li>
-                                                <li>Ensured website stability through cross-browser testing and
-                                                    debugging.</li>
+                                                <li>Developed and customized WordPress themes using Elementor and WP Bakery</li>
+                                                <li>Improved website responsiveness and mobile compatibility</li>
+                                                <li>Ensured website stability through cross-browser testing and debugging</li>
                                             </ul>
-
-
                                         </div>
                                     </div>
+                                    <!-- Job 5 -->
                                     <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                                         <div class="timeline-left">
                                             <h4 class="company">Marksmen Global, Canada</h4>
-                                            <span class="period"> Sept 2021 – Feb 2022</span>
+                                            <span class="period">Sept 2021 – Feb 2022</span>
                                         </div>
                                         <div class="timeline-dot"></div>
                                         <div class="timeline-right">
-                                            <h3 class="position">WordPress Intern (Remote) </h3>
-                                            <!-- <p class="description">Designed and developed a professional website using
-                                                the Kadence theme for a client-focused platform.</p> -->
+                                            <h3 class="position">WordPress Intern (Remote)</h3>
                                             <h4>Key Responsibilities</h4>
                                             <ul>
-                                                <li>Completed two WordPress projects, including a school and a job
-                                                    placement website. </li>
-                                                <li> Gained hands-on experience in real-world project collaboration,
-                                                    plugin configuration, and content
-                                                    structuring.</li>
+                                                <li>Completed two WordPress projects, including a school and a job placement website</li>
+                                                <li>Gained hands-on experience in real-world project collaboration, plugin configuration, and content structuring</li>
                                             </ul>
-
-
                                         </div>
                                     </div>
 
@@ -445,26 +407,41 @@
                                         <div class="col-md-4">
                                             <div class="skill-box">
                                                 <h3>Virtual University</h3>
-                                                <p> Bachelors of Computer Science <br> 2025 - Continue</p>
+                                                <p>Bachelor of Computer Science <br> 2025 (Ongoing)</p>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="skill-box">
                                                 <h3>Zia Udin Board</h3>
-                                                <p> HSC – Computer Science <br> 2022 - 2024</p>
+                                                <p>HSC – Computer Science <br> 2022 – 2024</p>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="skill-box">
                                                 <h3>Harmain Grammar School</h3>
-                                                <p>SSC - Science <br> 2021 (Completed)</p>
+                                                <p>SSC – Science <br> Completed</p>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
 
-                                <!-- Technical Skills -->
+                                <!-- Certification -->
+                                <div class="section-title text-center mb-4 mt-5">
+                                    <h2>Certification</h2>
+                                    <div class="title-shape mx-auto"></div>
+                                </div>
+                                <div class="col-lg-12 mx-auto">
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                            <div class="cert-box">
+                                                <h3>Oracle Certified Professional</h3>
+                                                <p>Oracle APEX Cloud Developer Professional (1Z0-771) <br> 2026</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
@@ -544,187 +521,174 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                    <!-- 
                     <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
                         <ul class="portfolio-filters isotope-filters">
-                            <li data-filter="*" class="filter-active">All
-                                Work</li>
-                            <li data-filter=".filter-web">Web Design</li>
-                            <li data-filter=".filter-graphics">Graphics</li>
-                            <li data-filter=".filter-motion">Motion</li>
-                            <li data-filter=".filter-brand">Branding</li>
+                            <li data-filter="*" class="filter-active">All Projects</li>
+                            <li data-filter=".filter-shopify">Shopify / E-Commerce</li>
+                            <li data-filter=".filter-wordpress">WordPress</li>
+                            <li data-filter=".filter-agency">Custom & Agency</li>
                         </ul>
-                    </div> -->
+                    </div>
 
                     <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+                        <!-- Project 1: Leathersmith 1889 -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/1.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">Shopify Store</span>
+                                    <h3>Leathersmith 1889</h3>
+                                    <p>Premium leather goods e-commerce storefront with custom theme tailoring.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Shopify</span>
+                                        <span class="tech-tag">E-Commerce</span>
                                     </div>
+                                    <a href="https://leathersmith1889.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Web Design</span>
-                                    <h3>Modern Dashboard Interface</h3>
-                                    <p>Maecenas faucibus mollis interdum sed
-                                        posuere consectetur
-                                        est at lobortis.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+                        <!-- Project 2: Novado -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/2.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">Shopify Store</span>
+                                    <h3>Novado</h3>
+                                    <p>High-end footwear and leather fashion store optimized for speed and conversion.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Shopify</span>
+                                        <span class="tech-tag">Liquid</span>
                                     </div>
+                                    <a href="https://novado.com.pk/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Graphics</span>
-                                    <h3>Creative Brand Identity</h3>
-                                    <p>Vestibulum id ligula porta felis
-                                        euismod semper at
-                                        vulputate.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
+                        <!-- Project 3: Ara Handcrafted -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/3.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">Shopify Store</span>
+                                    <h3>Ara Handcrafted</h3>
+                                    <p>Premium designer leather bags and handmade accessories storefront.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Shopify</span>
+                                        <span class="tech-tag">UX Design</span>
                                     </div>
+                                    <a href="https://www.arahandcrafted.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Motion</span>
-                                    <h3>Product Animation Reel</h3>
-                                    <p>Donec ullamcorper nulla non metus
-                                        auctor fringilla
-                                        dapibus.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
+                        <!-- Project 4: Surrati Pakistan -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/4.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">E-Commerce Store</span>
+                                    <h3>Surrati Pakistan</h3>
+                                    <p>Exquisite fragrances and premium perfumes portal with custom checkout flow.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">WooCommerce</span>
+                                        <span class="tech-tag">WordPress</span>
                                     </div>
+                                    <a href="https://surrati.com.pk/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Branding</span>
-                                    <h3>Luxury Brand Package</h3>
-                                    <p>Aenean lacinia bibendum nulla sed
-                                        consectetur elit.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+                        <!-- Project 5: The Iron Gear -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/5.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">Shopify Store</span>
+                                    <h3>The Iron Gear</h3>
+                                    <p>Athletic sportswear and gym gear shop with payment gateway integrations.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Shopify</span>
+                                        <span class="tech-tag">Integrations</span>
                                     </div>
+                                    <a href="https://theirongear.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Web Design</span>
-                                    <h3>E-commerce Platform</h3>
-                                    <p>Nullam id dolor id nibh ultricies
-                                        vehicula ut id
-                                        elit.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+                        <!-- Project 6: Pompeii Brand -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shopify">
                             <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/6.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-
-                                        </div>
+                                <div class="portfolio-content">
+                                    <span class="category">E-Commerce Store</span>
+                                    <h3>Pompeii Brand</h3>
+                                    <p>Modern fashion, streetwear, and sneakers online shop platform.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Shopify</span>
+                                        <span class="tech-tag">Custom CSS</span>
                                     </div>
+                                    <a href="https://pompeiibrand.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Graphics</span>
-                                    <h3>Digital Art Collection</h3>
-                                    <p>Cras mattis consectetur purus sit
-                                        amet fermentum.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-                            <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/7.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
 
-                                        </div>
+                        <!-- Project 7: 1Click -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-agency">
+                            <div class="portfolio-card">
+                                <div class="portfolio-content">
+                                    <span class="category">Agency Hub</span>
+                                    <h3>1Click</h3>
+                                    <p>Interactive web development agency hub for client project onboarding.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">WordPress</span>
+                                        <span class="tech-tag">Elementor</span>
                                     </div>
+                                    <a href="https://1click.com.pk/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Graphics</span>
-                                    <h3>Digital Art Collection</h3>
-                                    <p>Cras mattis consectetur purus sit
-                                        amet fermentum.</p>
-                                </div> -->
                             </div>
                         </div><!-- End Portfolio Item -->
-                        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-                            <div class="portfolio-card">
-                                <div class="portfolio-image">
-                                    <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt loading="lazy">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-actions">
-                                            <a href="assets/img/portfolio/8.jpg" class="glightbox preview-link"
-                                                data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
 
-                                        </div>
+                        <!-- Project 8: Zyne Ventures -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <div class="portfolio-card">
+                                <div class="portfolio-content">
+                                    <span class="category">WordPress Theme</span>
+                                    <h3>Zyne Ventures</h3>
+                                    <p>Strategic growth platform designed with the Kadence theme for SEO and speed.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">Kadence</span>
+                                        <span class="tech-tag">SEO</span>
                                     </div>
+                                    <a href="https://zyneventures.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <span class="category">Graphics</span>
-                                    <h3>Digital Art Collection</h3>
-                                    <p>Cras mattis consectetur purus sit
-                                        amet fermentum.</p>
-                                </div> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <!-- Project 9: Houston Broker -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <div class="portfolio-card">
+                                <div class="portfolio-content">
+                                    <span class="category">Real Estate</span>
+                                    <h3>Houston Broker</h3>
+                                    <p>Premium real estate property search brokerage listings engine.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">WordPress</span>
+                                        <span class="tech-tag">MLS Integration</span>
+                                    </div>
+                                    <a href="https://houstonbroker.com/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <!-- Project 10: Tax Cutter -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <div class="portfolio-card">
+                                <div class="portfolio-content">
+                                    <span class="category">WordPress Site</span>
+                                    <h3>Tax Cutter</h3>
+                                    <p>Interactive landing hub for tax preparation services optimization.</p>
+                                    <div class="portfolio-tech-tags">
+                                        <span class="tech-tag">WordPress</span>
+                                        <span class="tech-tag">FinTech</span>
+                                    </div>
+                                    <a href="https://www.taxcutter.us/" target="_blank" class="btn-visit">Visit Site <i class="bi bi-arrow-up-right"></i></a>
+                                </div>
                             </div>
                         </div><!-- End Portfolio Item -->
 
@@ -763,7 +727,10 @@
                                     <span>Karachi - Pakistan - 74900</span>
                                 </div>
 
-                            </div>
+                                <div class="social-links d-flex mt-4">
+                                    <a href="https://www.linkedin.com/in/amaanrasheedpatel" target="_blank" class="me-3"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/amaanar256" target="_blank" class="me-3"><i class="bi bi-github"></i></a>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -789,6 +756,266 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 
-</body>
+    <!-- Earth Particles Animation -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById("earth-particles");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+
+        let width, height;
+        function resize() {
+            width = canvas.width = canvas.offsetWidth;
+            height = canvas.height = canvas.offsetHeight;
+        }
+        resize();
+        window.addEventListener("resize", resize);
+
+        const particles = [];
+        const numParticles = 380;
+        const baseRadius = 220; // Base size of the earth globe
+
+        // Generate Fibonacci lattice points on a sphere
+        for (let i = 0; i < numParticles; i++) {
+            const phi = Math.acos(-1 + (2 * i) / numParticles);
+            const theta = Math.sqrt(numParticles * Math.PI) * phi;
+
+            particles.push({
+                x: Math.sin(phi) * Math.cos(theta),
+                y: Math.sin(phi) * Math.sin(theta),
+                z: Math.cos(phi),
+                // Tiny vibration coordinates for dynamic float feel
+                vx: (Math.random() - 0.5) * 0.04,
+                vy: (Math.random() - 0.5) * 0.04,
+                vz: (Math.random() - 0.5) * 0.04
+            });
+        }
+
+        let angleY = 0;
+        let angleX = 0.2; // slight downward angle for 3D look
+        let mouseX = 0, mouseY = 0;
+        let targetMouseX = 0, targetMouseY = 0;
+
+        document.addEventListener("mousemove", function (e) {
+            const rect = canvas.getBoundingClientRect();
+            // Calculate cursor offset from center
+            targetMouseX = (e.clientX - rect.left - width / 2) * 0.0006;
+            targetMouseY = (e.clientY - rect.top - height / 2) * 0.0006;
+        });
+
+        function rotateX(p, a) {
+            const c = Math.cos(a), s = Math.sin(a);
+            return { x: p.x, y: p.y * c - p.z * s, z: p.y * s + p.z * c };
+        }
+
+        function rotateY(p, a) {
+            const c = Math.cos(a), s = Math.sin(a);
+            return { x: p.x * c - p.z * s, y: p.y, z: p.x * s + p.z * c };
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+
+            // Interpolate mouse movements smoothly
+            mouseX += (targetMouseX - mouseX) * 0.05;
+            mouseY += (targetMouseY - mouseY) * 0.05;
+
+            // Base earth rotation speed
+            angleY += 0.003;
+
+            const radius = Math.min(width, height) * 0.26;
+
+            for (let i = 0; i < particles.length; i++) {
+                const p = particles[i];
+                
+                // Sphere shape coordinate mapping
+                let pt = { 
+                    x: p.x + p.vx * Math.sin(angleY * 5), 
+                    y: p.y + p.vy * Math.cos(angleY * 5), 
+                    z: p.z + p.vz * Math.sin(angleY * 5) 
+                };
+
+                // Normalize vector
+                const mag = Math.sqrt(pt.x*pt.x + pt.y*pt.y + pt.z*pt.z);
+                pt.x = (pt.x / mag) * radius;
+                pt.y = (pt.y / mag) * radius;
+                pt.z = (pt.z / mag) * radius;
+
+                // Rotations: earth auto spin + mouse drag perspective
+                pt = rotateY(pt, angleY + mouseX);
+                pt = rotateX(pt, angleX + mouseY);
+
+                // Perspective projection mapping
+                const depth = 2.5;
+                const scale = (depth / (depth - (pt.z / radius))) * (width / 3.2);
+                const screenX = pt.x * (scale / radius) + width / 2;
+                const screenY = pt.y * (scale / radius) + height / 2;
+
+                // Depth value: [0, 1] range (1 is closest to camera)
+                const relativeDepth = (pt.z + radius) / (2 * radius);
+                const opacity = Math.max(0.08, relativeDepth * 0.7);
+
+                // Draw dots
+                ctx.beginPath();
+                ctx.arc(screenX, screenY, Math.max(0.5, scale * 0.006), 0, Math.PI * 2);
+                
+                // Color variation based on position
+                if (pt.z > 0) {
+                    ctx.fillStyle = `rgba(37, 99, 235, ${opacity})`;
+                } else {
+                    ctx.fillStyle = `rgba(100, 116, 139, ${opacity * 0.6})`;
+                }
+                ctx.fill();
+
+                // Glow aura for front-facing particles
+                if (pt.z > radius * 0.6) {
+                    ctx.beginPath();
+                    ctx.arc(screenX, screenY, scale * 0.015, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(37, 99, 235, 0.06)`;
+                    ctx.fill();
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    });
+    </script>
+
+    <!-- Falling Skill Badges to Alphabetical Assembly Animation -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const grid = document.getElementById("skills-grid");
+        if (!grid) return;
+
+        const skillBoxes = Array.from(grid.querySelectorAll(".skill-box"));
+
+        skillBoxes.forEach(box => {
+            box.style.opacity = "0";
+            box.style.visibility = "hidden";
+            box.classList.remove("landed");
+        });
+
+        const skillsData = skillBoxes.map((box, idx) => ({
+            name: box.getAttribute("data-skill"),
+            element: box,
+            index: idx
+        }));
+
+        skillsData.sort((a, b) => a.name.localeCompare(b.name));
+
+        const badges = [];
+
+        skillsData.forEach((skill, i) => {
+            const badge = document.createElement("div");
+            badge.className = "falling-badge";
+            badge.innerText = skill.name;
+
+            badge.style.left = "-9999px";
+            badge.style.top = "-9999px";
+            document.body.appendChild(badge);
+
+            badges.push({
+                element: badge,
+                skill: skill,
+                isAssembling: false
+            });
+        });
+
+        badges.forEach(b => {
+            b.width = b.element.offsetWidth;
+            b.height = b.element.offsetHeight;
+        });
+
+        let assemblyStarted = false;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !assemblyStarted) {
+                    assemblyStarted = true;
+                    startAssemblySequence();
+                }
+            });
+        }, { threshold: 0.15 });
+
+        observer.observe(document.getElementById("skills"));
+
+        function startAssemblySequence() {
+            // Move badges to target container positions in A-Z order
+            badges.forEach((b) => {
+                b.element.classList.add("assembling");
+            });
+
+            skillsData.forEach((skill, alphabetIndex) => {
+                setTimeout(() => {
+                    const badge = badges.find(b => b.skill.name === skill.name);
+                    if (!badge) return;
+
+                    badge.isAssembling = true;
+
+                    function fly() {
+                        const targetRect = skill.element.getBoundingClientRect();
+                        
+                        badge.element.style.left = targetRect.left + "px";
+                        badge.element.style.top = targetRect.top + "px";
+                        badge.element.style.width = targetRect.width + "px";
+                        badge.element.style.height = targetRect.height + "px";
+                        badge.element.style.transform = "rotate(0deg) scale(0.95)";
+                        badge.element.style.opacity = "0.7";
+                        badge.element.style.borderStyle = "dashed";
+
+                        // Wait for transition to complete
+                        setTimeout(() => {
+                            // Ripple impact rings
+                            createImpactRing(targetRect);
+
+                            // Hide badge, make actual card visible with bounce
+                            badge.element.style.display = "none";
+                            skill.element.style.visibility = "visible";
+                            skill.element.style.opacity = "1";
+                            skill.element.classList.add("landed");
+
+                            // Cleanup rules to restore original styling
+                            setTimeout(() => {
+                                skill.element.style.opacity = "";
+                                skill.element.style.visibility = "";
+                            }, 800);
+
+                        }, 900); // Matches the 0.9s transition in style.css
+                    }
+
+                    fly();
+
+                    // If user is scrolling, dynamically match targets
+                    window.addEventListener("scroll", () => {
+                        if (badge.isAssembling && !badge.isLanded) {
+                            const targetRect = skill.element.getBoundingClientRect();
+                            badge.element.style.left = targetRect.left + "px";
+                            badge.element.style.top = targetRect.top + "px";
+                        }
+                    });
+
+                }, alphabetIndex * 350); // Stagger landing order (A-Z)
+            });
+        }
+
+        function createImpactRing(rect) {
+            const ring = document.createElement("div");
+            ring.className = "landing-impact-ring";
+            ring.style.left = (rect.left + window.scrollX) + "px";
+            ring.style.top = (rect.top + window.scrollY) + "px";
+            ring.style.width = rect.width + "px";
+            ring.style.height = rect.height + "px";
+            document.body.appendChild(ring);
+            
+            setTimeout(() => {
+                ring.remove();
+            }, 800);
+        }
+    });
+    </script>
+
+
 
 </html>
